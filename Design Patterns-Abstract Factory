@@ -1,0 +1,6 @@
+O Abstract Factory tem o objetivo principal de remover código de criação  das classes de negócio.
+
+O Abstract Factory permite a criação de famílias de objetos relacionados ou dependentes por meio de uma única interface e sem que a classe concreta seja especificada. Uma fábrica é a localização de uma classe concreta no código em que objetos são construídos . O objetivo em empregar o padrão é isolar a criação de objetos de seu uso e criar famílias de objetos relacionados sem ter que depender de suas classes concretas. Isto permite novos tipos derivados de ser introduzidas sem qualquer alteração ao código que usa a classe base.
+
+Ultilizar o Abstract implica também em adicionar ao menos em uma parte do projeto uma linguagem universal aos programadores,
+Padrões tendem a serem conhecidos por muitos developers e na leitura do código a identificação de uso de um padrão já alivia na necessidade de ter de destrinchar o código para entendê-lo;
