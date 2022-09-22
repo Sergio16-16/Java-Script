@@ -1,0 +1,8 @@
+function resultado(){
+Var nota1 = parseFloat(document.getElementById("altura").value);
+Var nota2 = parseFloat(document.getElementById("peso").value);
+var resultado = (nota1 +  nota2 / 2 ;
+if(resultado >= 7)
+alert("Parabens você foi aprovado");
+else if(resultado < 7)
+("voce está reprovado")}
